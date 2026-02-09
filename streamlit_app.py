@@ -5,6 +5,7 @@ import numpy as np
 st.title("Welcome to the DS Class")
 st.subheader("Welcome to the DS Class")
 st.write("Hello world")
+st.write("### hihi")
 st.caption("This is a caption")
 
 # Include beyond text
@@ -18,7 +19,7 @@ st.checkbox("yes")
 st.button("click")
 st.radio("choose",["a","b"])
 st.multiselect("Pick",["a","b"])
-st.slider("sliede",0,100)
+st.slider("slide",0,100)
 
 # Advanced input
 st.number_input("choose a no.",0,10)
